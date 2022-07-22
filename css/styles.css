@@ -9,8 +9,7 @@
     --btn-portfolio-color: #F5F4FA;
     --active-color: #2196F3;
     --btn-text-active-color: #FFFFFF; 
-    --main-background-color: #F5F5F5;
-    --header-background-color: #FFFFFF;
+    --main-background-color: #FFFFFF;
     --hero-backgroud-color: #2F303A;
     --our-team-background-color: #F5F4FA;
     --our-team-foto-background-color: #FFFFFF; 
@@ -44,9 +43,7 @@ body {
     background: var(--main-background-color);
 }
 /*---------------------------------------LOGO-HEADER------------------*/
-.header{
-    background: var(--header-background-color);  
-}
+
 .header-logo-wed {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -220,6 +217,15 @@ body {
     letter-spacing: 0.03em;
     color: var(--footer-address-color);
 }
+.footer-address:hover,
+.footer-address:focus,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus{
+    color:var(--active-color);
+}
+
 /*-------------------------------------PORTFOLIO------------------------------*/
 /*------------------------------------NAVIGATION-----------------------------*/
 .navigation-studio {
@@ -253,8 +259,6 @@ body {
 }
 
 
-
-
 /*----------------------------------------BUTTON-------------------------------*/
 .btn{
     font-family: inherit;
@@ -272,7 +276,10 @@ body {
     background: var(--active-color);
     color: var(--btn-text-active-color);
 }
-
+.btn-active{
+    background: var(--active-color);
+    color: var(--btn-text-active-color);
+}
 
 /*------------------------------------------PORTFOLIO----------------------*/
 .portfolio-title{
